@@ -1,0 +1,20 @@
+from turtle import Turtle
+t = Turtle()
+
+t.screen.bgcolor("blue")
+t.screen.title("Drawing Lines Practice")
+
+t.pensize(5)
+t.shape("circle")
+t.forward(100)
+
+for x in range(0, 8):
+    t.forward(100)
+    t.backward(100)
+    t.left(45)
+
+
+t.screen.exitonclick()
+t.screen.mainloop()
+
+t.done()

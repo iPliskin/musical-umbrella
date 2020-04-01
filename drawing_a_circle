@@ -1,0 +1,17 @@
+from turtle import Turtle
+t = Turtle()
+
+t.screen.bgcolor("blue")
+t.screen.title("Drawing Circles Practice")
+
+t.pensize(5)
+t.color("green")
+t.fillcolor("red")
+t.begin_fill()
+t.circle(100)
+t.end_fill()
+
+t.screen.exitonclick()
+t.screen.mainloop()
+
+t.done()

@@ -1,2 +1,2 @@
 # musical-umbrella
-A GitHub repository for Python projects.
+A GitHub repository for Codecademy projects using Python.

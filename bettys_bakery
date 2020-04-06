@@ -18,8 +18,8 @@ print(recipes)
 
 eggs = recipes[:,2]
 
-recipe_needs_eggs = recipes[:,2] == 1
-print(recipe_needs_eggs)
+one_egg = recipes[eggs == 1]
+print(one_egg)
 
 cookies = recipes[2,:]
 
@@ -28,3 +28,4 @@ print(double_batch)
 
 grocery_list = cookies + double_batch
 print(grocery_list)
+
